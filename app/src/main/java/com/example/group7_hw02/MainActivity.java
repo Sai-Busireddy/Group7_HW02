@@ -124,7 +124,11 @@ public class MainActivity extends AppCompatActivity {
 
         textNumOfDrinksValue.setText(String.valueOf(arrayListDrinks.size()));
 
-        if(BAC > 0.08 && BAC <= 0.2){
+        if(BAC <= 0.08){
+            textViewYourStatusValue.setText("You're safe");
+            textViewYourStatusValue.setBackgroundResource(R.color.Dark_Green);
+        }
+        else if(BAC > 0.08 && BAC <= 0.2){
             textViewYourStatusValue.setText("Be careful");
             textViewYourStatusValue.setBackgroundResource(R.color.Orange);
         }
