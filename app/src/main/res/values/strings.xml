@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BAC Calculator</string>
+    <string name="textViewWeight">"Weight: "</string>
+    <string name="textViewWeightDisplay">N/A</string>
+    <string name="buttonGoToSet">Set</string>
+    <string name="textNumOfDrinks"># Drinks:</string>
+    <string name="textNumOfDrinksValue">0</string>
+    <string name="textBACLevel">BAC Level:</string>
+    <string name="textBACLevelValue">0.000</string>
+    <string name="textYourStatus">Your Status:</string>
+    <string name="textViewYourStatusValue">You\'re safe</string>
+    <string name="buttonViewDrinks">View Drinks</string>
+    <string name="buttonGoToAddDrink">Add Drink</string>
+    <string name="buttonReset">Reset</string>
+    <string name="textViewWgtLbs">Weight (lbs):</string>
+    <string name="textViewGender">Gender:</string>
+    <string name="radioButtonFemale">Female</string>
+    <string name="radioButtonMale">Male</string>
+    <string name="buttonWeightCancel">Cancel</string>
+    <string name="buttonSet">Set</string>
+    <string name="textViewDrinkSize">Drink Size:</string>
+    <string name="radioButton1oz">1 oz</string>
+    <string name="radioButton5oz">5 oz</string>
+    <string name="radioButton12oz">12 oz</string>
+    <string name="textViewAlcoholPercentage">Alcohol %:</string>
+    <string name="textSeekPercentage">0%</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonAddDrink">Add Drink</string>
+    <string name="textViewDrinkNumber"></string>
+    <string name="textViewAlcSize"></string>
+    <string name="textViewAlcPercentage"></string>
+    <string name="textViewTimeStamp"></string>
+    <string name="buttonClose">Close</string>
+    <string name="EnterWeightHint">"  Enter Weight"</string>
+</resources>

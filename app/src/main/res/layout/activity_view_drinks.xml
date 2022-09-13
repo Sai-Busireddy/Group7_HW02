@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewDrinksActivity">
+
+    <TextView
+        android:id="@+id/textViewDrinkNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/textViewDrinkNumber"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAlcSize"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/textViewAlcSize"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDrinkNumber" />
+
+    <TextView
+        android:id="@+id/textViewAlcPercentage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/textViewAlcPercentage"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAlcSize" />
+
+    <TextView
+        android:id="@+id/textViewTimeStamp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/textViewTimeStamp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAlcPercentage" />
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:text="@string/buttonClose"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonTrash"
+        android:layout_width="54dp"
+        android:layout_height="47dp"
+        android:background="@drawable/ic_trash"
+        app:layout_constraintBottom_toTopOf="@+id/buttonClose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTimeStamp"
+        app:layout_constraintVertical_bias="0.656" />
+
+    <ImageButton
+        android:id="@+id/buttonPrevious"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/ic_previous"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonTrash"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTrash"
+        app:layout_constraintTop_toTopOf="@+id/buttonTrash" />
+
+    <ImageButton
+        android:id="@+id/buttonNext"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="80dp"
+        android:background="@drawable/ic_next"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonTrash"
+        app:layout_constraintStart_toEndOf="@+id/buttonTrash"
+        app:layout_constraintTop_toTopOf="@+id/buttonTrash" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
